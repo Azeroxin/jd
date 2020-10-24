@@ -130,3 +130,54 @@
     font-family: "Microsoft YaHei", tahoma, arial, "Hiragino Sans GB", "\\5b8b体", sans-serif;
 }
 
+.content .wrapper{
+    margin: 0px auto;
+    width: 1190px;
+    padding: 10px;
+    display: flex;
+}
+
+.menu-box{
+    width: 190px;
+    background: #ffffff;
+    position: relative;
+    padding: 10px 0px;
+    margin-right: 10px;
+}
+
+.menu-box ul li{
+    height: 25px;
+    line-height: 25px;
+    padding: 0px 12px;
+    overflow: hidden;
+}
+
+.menu-box ul li:hover{
+    background: #d9d9d9;
+}
+
+.menu-box .sub-menu{
+    position: absolute;
+    top: 0px;
+    left: 190px;
+    background: #ffffff;
+    z-index: 10;
+    width: 900px;
+    padding: 20px;
+    font-size: 12px;
+    box-shadow: 2px 0px 5px rgba(0,0,0,0.3);
+}
+
+.sub-menu .left-box{
+    float: left;
+    max-width: 700px;
+}
+
+.sub-menu .menu-title{
+    margin: 0px 0px 10px  0px;
+}
+
+.sub-menu .right-box{
+    float:right;
+    width: 160px;
+}
